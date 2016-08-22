@@ -1,0 +1,53 @@
+From 8f5ff4c1506397ebb290b00ff5c376e529ecb81d Mon Sep 17 00:00:00 2001
+From: jhahnavibheri <jahnavi.bheri@gmail.com>
+Date: Sat, 20 Aug 2016 22:28:35 -0400
+Subject: [PATCH] Creating a patch
+
+---
+ src/folder1/text1.java | 5 +++++
+ src/folder2/text2.java | 5 +++++
+ src/folder3/text3.java | 5 +++++
+ 3 files changed, 15 insertions(+)
+ create mode 100644 src/folder1/text1.java
+ create mode 100644 src/folder2/text2.java
+ create mode 100644 src/folder3/text3.java
+
+diff --git a/src/folder1/text1.java b/src/folder1/text1.java
+new file mode 100644
+index 0000000..6730333
+--- /dev/null
++++ b/src/folder1/text1.java
+@@ -0,0 +1,5 @@
++public class Test {
++public static void main (String [] args) {
++System.out.println("Hello world!");
++}
++}
+\ No newline at end of file
+diff --git a/src/folder2/text2.java b/src/folder2/text2.java
+new file mode 100644
+index 0000000..6730333
+--- /dev/null
++++ b/src/folder2/text2.java
+@@ -0,0 +1,5 @@
++public class Test {
++public static void main (String [] args) {
++System.out.println("Hello world!");
++}
++}
+\ No newline at end of file
+diff --git a/src/folder3/text3.java b/src/folder3/text3.java
+new file mode 100644
+index 0000000..6730333
+--- /dev/null
++++ b/src/folder3/text3.java
+@@ -0,0 +1,5 @@
++public class Test {
++public static void main (String [] args) {
++System.out.println("Hello world!");
++}
++}
+\ No newline at end of file
+-- 
+2.9.3.windows.1
+
